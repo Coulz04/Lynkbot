@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+
+body{
+    background-color: #5C8374;
+    color: #D2E3C8;
+}
+
+/*NAV-BAR*/
+.navbar{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    background-color:#9EC8B9;
+}
+
+
+.nav-item:hover{
+    color: #c4fbc9;
+    background-color: #739072;
+}
+
+/*HOME*/
+h1{
+    font-size: 75px;
+    text-align: center;
+    font-family: "Lemon", serif;
+}
+.w-icon{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    right: 1165px;
+    top: 235px;
+}
+
+.welcome{
+    background-color: #5C8374;
+    width: 700px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: right;
+    position: absolute;
+    right: 850px;
+}
+
+
+.links{
+    color: lightblue;
+    justify-content: right 50px;
+    text-decoration: none;
+}   
+
+.links:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+.sets{
+    background-color: #5C8374;
+    width: 700px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: right;
+    position: absolute;
+    right: 50px;
+    bottom: -50px;
+}
+
+.why{
+    background-color: #5C8374;
+    width: 700px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: right;
+    position: absolute;
+    right: 850px;
+    bottom: -450px;
+}
+
+.expect{
+    
+    background-color: #5C8374;
+    width: 700px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    align-items: right;
+    position: absolute;
+    right: 50px;
+     bottom: -775px;
+
+}
+
